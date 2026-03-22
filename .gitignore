@@ -1,0 +1,44 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+
+# --- Android / Gradle build outputs (all modules) ---
+**/build/
+**/out/
+**/.cxx/
+**/.externalNativeBuild/
+
+# APK / AAB / packaged artifacts
+*.apk
+*.ap_
+*.aab
+*.aar
+*.dex
+
+# Native / symbol / mapping outputs
+*.so
+*.hprof
+*.map
+*.mapping.txt
+**/outputs/
+**/intermediates/
+**/generated/
+**/tmp/
+
+# Kotlin / Java compiler artifacts
+*.class
+*.kotlin_module
+
+# Gradle caches / wrappers
+/.gradletasknamecache
+/.kotlin/
+
+# IDE and OS extras
+.DS_Store
+Thumbs.db
